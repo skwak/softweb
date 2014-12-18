@@ -12,5 +12,11 @@ h1 {
 }
 
 .gif {
-  width: 10em;
+  width: 2em;
+  opacity:0.5;
+}
+
+.gif:hover
+{
+  opacity:1;
 }
