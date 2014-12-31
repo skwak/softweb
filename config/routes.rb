@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root 'home#index'
+  get "/inputs/new",    to: "home#new",     as: :new_input
+  post "/inputs",       to: "home#create"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
