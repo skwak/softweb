@@ -10,12 +10,12 @@ html {
 }
 
 body {
-  margin-left: 1em;
   background-image:  url(image_path("boom.gif"));
   background-repeat: repeat;
 }
 
 #container {
+  margin-left: 1em;
   background-image:  url(image_path("boom.gif"));
   background-size: 100%;
 }
@@ -32,8 +32,9 @@ small {
 }
 
 p {
-  font-family: "Helvetica Neue";
-  font-size: 1.1em;
+  font-family: "Cardo", serif;
+  font-size: 1.2em;
+  -webkit-text-stroke: .2px #c7c7c7;
 }
 
 p.pink {
@@ -45,7 +46,7 @@ p.blue {
 }
 
 p.orange {
-  color: #e9b829;
+  color: #ce9a1f;
 }
 
 p.purple {
