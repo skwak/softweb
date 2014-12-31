@@ -24,6 +24,7 @@ h1 {
   font-family: "Open Sans";
   color: #87939c;
   font-style: italic;
+  font-size: 2.5em;
 }
 
 small {
@@ -33,23 +34,24 @@ small {
 
 p {
   font-family: "Cardo", serif;
-  font-size: 1.2em;
-  -webkit-text-stroke: .2px #c7c7c7;
+  font-style: italic;
+  font-size: 1.5em;
+  -webkit-text-stroke: .2px #000000;
 }
 
-p.pink {
+.pink {
   color: #cba0e3;
 }
 
-p.blue {
+.blue {
   color: #8cc6ec;
 }
 
-p.orange {
+.orange {
   color: #ce9a1f;
 }
 
-p.purple {
+.purple {
   color: #b48fbf;
 }
 
