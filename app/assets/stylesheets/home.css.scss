@@ -2,21 +2,62 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html {
+  background: -webkit-radial-gradient(#bddaff, #b6d5cb, #ddd3e0); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#bddaff, #b6d5cb, #ddd3e0); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#bddaff, #b6d5cb, #ddd3e0); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#bddaff, #b6d5cb, #ddd3e0); /* Standard syntax */
+}
+
 body {
   margin-left: 1em;
+  background-image:  url(image_path("boom.gif"));
+  background-repeat: repeat;
+}
+
+#container {
+  background-image:  url(image_path("boom.gif"));
+  background-size: 100%;
 }
 
 h1 {
   font-family: "Open Sans";
-  color: #c0c0c0;
+  color: #87939c;
+  font-style: italic;
+}
+
+small {
+  color: #76aa7c;
+  font-size: .7em;
+}
+
+p {
+  font-family: "Helvetica Neue";
+  font-size: 1.1em;
+}
+
+p.pink {
+  color: #cba0e3;
+}
+
+p.blue {
+  color: #8cc6ec;
+}
+
+p.orange {
+  color: #e9b829;
+}
+
+p.purple {
+  color: #b48fbf;
 }
 
 .gif {
-  width: 2em;
-  opacity:0.5;
+  width: 6em;
+  opacity: 0.4;
 }
 
 .gif:hover
 {
-  opacity:1;
+  opacity: .7;
 }
