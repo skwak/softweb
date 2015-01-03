@@ -11,7 +11,7 @@ html {
 
 body {
   background-image:  url(image_path("boom.gif"));
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   -webkit-animation: colors 30s infinite;
   -moz-animation: colors 30s infinite;
   -o-animation: colors 30s infinite;
@@ -23,6 +23,7 @@ body {
 #container {
   margin-left: 1em;
   background-image:  url(image_path("boom.gif"));
+  background-repeat: no-repeat;
   background-size: 30%;
 }
 
