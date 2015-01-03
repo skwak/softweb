@@ -23,7 +23,7 @@ body {
 #container {
   margin-left: 1em;
   background-image:  url(image_path("boom.gif"));
-  background-size: 100%;
+  background-size: 30%;
 }
 
 h1 {
@@ -62,13 +62,13 @@ p {
 }
 
 .gif {
-  width: 6em;
-  opacity: 0.4;
+  width: 10em;
+  opacity: .3;
 }
 
 .gif:hover
 {
-  opacity: .7;
+  opacity: .5;
 }
 
 .soft-form textarea {
