@@ -1,5 +1,7 @@
-$(function() {
-  $("#circle").click (function() {
-    $("#circle").animate({height:"20em"});
-  });
-};
+$(document).ready(function(){
+  animateCircle();
+});
+
+function animateCircle() {
+  $("#circle").animate({bottom:"600px"}, 50000, animateCircle;
+}
