@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
   def index
     @input = Input.new
+    @inputs = Input.all
   end
 
   def new

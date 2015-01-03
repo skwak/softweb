@@ -10,4 +10,8 @@
     <%= f.text_area :content %><br>
     <%= f.submit "send me your softness" %>
   <% end %>
+
+  <% @inputs.each do |input| %>
+    <%= input.content %>
+  <% end %>
 </div>
