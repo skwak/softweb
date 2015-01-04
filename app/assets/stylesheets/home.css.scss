@@ -12,6 +12,7 @@ html {
 body {
   background-image:  url(image_path("boom.gif"));
   background-repeat: no-repeat;
+  font-family: "Open Sans";
 
 }
 
@@ -23,10 +24,9 @@ body {
 }
 
 h1 {
-  font-family: "Open Sans";
   color: #87939c;
-  font-style: italic;
   font-size: 2.5em;
+  opacity: .7;
 }
 
 small {
@@ -35,10 +35,7 @@ small {
 }
 
 p {
-  font-family: "Cardo", serif;
-  font-style: italic;
   font-size: 1.5em;
-  -webkit-text-stroke: .2px #000000;
 }
 
 .pink {
@@ -72,9 +69,11 @@ p {
   height: 10em;
 }
 
-.colors {
-  font-family: "Helvetica Neue";
+.colors, .colors2 {
   font-size: 3em;
+}
+
+.colors {
   -webkit-animation: colors 30s infinite;
   -moz-animation: colors 30s infinite;
   -o-animation: colors 30s infinite;
@@ -84,8 +83,6 @@ p {
 }
 
 .colors2 {
-  font-family: "Open Sans";
-  font-size: 3em;
   -webkit-animation: colors2 30s infinite;
   -moz-animation: colors2 30s infinite;
   -o-animation: colors2 30s infinite;
