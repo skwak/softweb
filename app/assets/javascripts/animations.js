@@ -10,13 +10,15 @@
 // setTimeout(animateCircle, 100);
 
 
-$(function() {
-  $('#circle').animate({opacity: 0.25,
-                        left: '+=1400',
-                        height: 'toggle'}, 5000, 'linear', function() {
-      loop();
-    });
-
-  }
-
+$(function(){
+  loop();
 });
+
+function loop() {
+  $('#circle').animate({
+    opacity: 0.25,
+    left: '+=1400',
+    height: '+=6'}, 5000, 'linear',  function() {
+      loop();
+  });
+}
