@@ -59,12 +59,12 @@ p {
 
 .gif {
   width: 10em;
-  opacity: .3;
+  opacity: .1;
 }
 
 .gif:hover
 {
-  opacity: .5;
+  opacity: .3;
 }
 
 .soft-form textarea {
@@ -84,7 +84,7 @@ p {
 }
 
 .colors2 {
-  font-family: "Helvetica Neue";
+  font-family: "Open Sans";
   font-size: 3em;
   -webkit-animation: colors2 30s infinite;
   -moz-animation: colors2 30s infinite;
@@ -372,4 +372,29 @@ s-keyframes colors2 {
   -moz-border-radius-lef: 6em;
   -webkit-border-radius: 6em;
 	border-top: 100px solid #d6f5a5;
+}
+
+#cloud {
+  height: 5em;
+  width: 10em;
+  background: #d0eaea;
+  -moz-border-radius: 5em;
+  -webkit-border-radius: 5em;
+  border-radius: 5em;
+  position: relative;
+  opacity: .5;
+}
+
+#cloud:after, #cloud:before {
+  content: '';
+  position: absolute;
+  background: #d0eaea;
+}
+
+#cloud:after {
+  width: 5em;
+  height: 7.5em;
+  border-radius: 5em;
+  top: -2em;
+  left: +3em;
 }
