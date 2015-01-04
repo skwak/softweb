@@ -12,11 +12,6 @@ html {
 body {
   background-image:  url(image_path("boom.gif"));
   background-repeat: no-repeat;
-  -webkit-animation: colors 30s infinite;
-  -moz-animation: colors 30s infinite;
-  -o-animation: colors 30s infinite;
-  -ms-animation: colors 30s infinite;
-  animation: colors 30s infinite;
 
 }
 
@@ -80,126 +75,258 @@ p {
 .colors {
   font-family: "Helvetica Neue";
   font-size: 3em;
+  -webkit-animation: colors 30s infinite;
+  -moz-animation: colors 30s infinite;
+  -o-animation: colors 30s infinite;
+  -ms-animation: colors 30s infinite;
+  animation: colors 30s infinite;
+}
+
+.colors2 {
+  font-family: "Helvetica Neue";
+  font-size: 3em;
+  -webkit-animation: colors2 30s infinite;
+  -moz-animation: colors2 30s infinite;
+  -o-animation: colors2 30s infinite;
+  -ms-animation: colors2 30s infinite;
+  animation: colors2 30s infinite;
 }
 
 @-webkit-keyframes colors {
   from {
-      color: rgb(160, 151, 151);
-  }
-  16.6% {
-      color: rgb(226, 193, 228);
-  }
-  33.3% {
-      color: rgb(176, 160, 211);
-    }
-  50% {
-      color: rgb(111, 154, 212);
-    }
-  66.6% {
-      color: rgb(122, 205, 119);
-    }
-  83.3% {
-      color: rgb(164, 184, 151);
-    }
-  to {
-      color: rgb(160, 151, 151);
-    }
-  }
-@-moz-keyframes colors {
-  from {
     color: rgb(160, 151, 151);
-    }
+  }
   16.6% {
     color: rgb(226, 193, 228);
-    }
+  }
   33.3% {
     color: rgb(176, 160, 211);
-    }
+  }
   50% {
     color: rgb(111, 154, 212);
-    }
+  }
   66.6% {
     color: rgb(122, 205, 119);
-    }
+  }
   83.3% {
     color: rgb(164, 184, 151);
   }
-to {
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
+@-moz-keyframes colors {
+  from {
+    color: rgb(160, 151, 151);
+  }
+  16.6% {
+    color: rgb(226, 193, 228);
+  }
+  33.3% {
+    color: rgb(176, 160, 211);
+  }
+  50% {
+    color: rgb(111, 154, 212);
+  }
+  66.6% {
+    color: rgb(122, 205, 119);
+  }
+  83.3% {
+    color: rgb(164, 184, 151);
+  }
+  to {
     color: rgb(160, 151, 151);
   }
 }
 
 s-keyframes colors{
   from {
-      color: rgb(160, 151, 151);
+    color: rgb(160, 151, 151);
   }
   16.6% {
-      color: rgb(226, 193, 228);
+    color: rgb(226, 193, 228);
   }
   33.3% {
-      color: rgb(176, 160, 211);
-    }
-  50% {
-      color: rgb(111, 154, 212);
-    }
-  66.6% {
-      color: rgb(122, 205, 119);
-    }
-  83.3% {
-      color: rgb(164, 184, 151);
-    }
-  to {
-      color: rgb(160, 151, 151);
-    }
+    color: rgb(176, 160, 211);
   }
+  50% {
+    color: rgb(111, 154, 212);
+  }
+  66.6% {
+    color: rgb(122, 205, 119);
+  }
+  83.3% {
+    color: rgb(164, 184, 151);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
 
 @-o-keyframes colors {
   from {
-      color: rgb(160, 151, 151);
+    color: rgb(160, 151, 151);
   }
   16.6% {
-      color: rgb(226, 193, 228);
+    color: rgb(226, 193, 228);
   }
   33.3% {
-      color: rgb(176, 160, 211);
-    }
-  50% {
-      color: rgb(111, 154, 212);
-    }
-  66.6% {
-      color: rgb(122, 205, 119);
-    }
-  83.3% {
-      color: rgb(164, 184, 151);
-    }
-  to {
-      color: rgb(160, 151, 151);
-    }
+    color: rgb(176, 160, 211);
   }
+  50% {
+    color: rgb(111, 154, 212);
+  }
+  66.6% {
+    color: rgb(122, 205, 119);
+  }
+  83.3% {
+    color: rgb(164, 184, 151);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
 
 @keyframes colors {
   from {
-      color: rgb(160, 151, 151);
+    color: rgb(160, 151, 151);
   }
   16.6% {
-      color: rgb(226, 193, 228);
+    color: rgb(226, 193, 228);
   }
   33.3% {
-      color: rgb(176, 160, 211);
-    }
-  50% {
-      color: rgb(111, 154, 212);
-    }
-  66.6% {
-      color: rgb(122, 205, 119);
-    }
-  83.3% {
-      color: rgb(164, 184, 151);
-    }
-  to {
-      color: rgb(160, 151, 151);
-    }
+    color: rgb(176, 160, 211);
   }
+  50% {
+    color: rgb(111, 154, 212);
+  }
+  66.6% {
+    color: rgb(122, 205, 119);
+  }
+  83.3% {
+    color: rgb(164, 184, 151);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
+
+@-webkit-keyframes colors2 {
+  from {
+    color: rgb(177, 205, 181);
+  }
+  16.6% {
+    color: rgb(151, 200, 241  );
+  }
+  33.3% {
+    color: rgb(210, 145, 229);
+  }
+  50% {
+    color: rgb(202, 181, 196);
+  }
+  66.6% {
+    color: rgb(136, 204, 204);
+  }
+  83.3% {
+    color: rgb(150, 231, 231);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
+@-moz-keyframes colors2 {
+  from {
+    color: rgb(177, 205, 181);
+  }
+  16.6% {
+    color: rgb(151, 200, 241  );
+  }
+  33.3% {
+    color: rgb(210, 145, 229);
+  }
+  50% {
+    color: rgb(202, 181, 196);
+  }
+  66.6% {
+    color: rgb(136, 204, 204);
+  }
+  83.3% {
+    color: rgb(150, 231, 231);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
+
+s-keyframes colors2 {
+  from {
+    color: rgb(177, 205, 181);
+  }
+  16.6% {
+    color: rgb(151, 200, 241  );
+  }
+  33.3% {
+    color: rgb(210, 145, 229);
+  }
+  50% {
+    color: rgb(202, 181, 196);
+  }
+  66.6% {
+    color: rgb(136, 204, 204);
+  }
+  83.3% {
+    color: rgb(150, 231, 231);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
+@-o-keyframes colors2 {
+  from {
+    color: rgb(177, 205, 181);
+  }
+  16.6% {
+    color: rgb(151, 200, 241  );
+  }
+  33.3% {
+    color: rgb(210, 145, 229);
+  }
+  50% {
+    color: rgb(202, 181, 196);
+  }
+  66.6% {
+    color: rgb(136, 204, 204);
+  }
+  83.3% {
+    color: rgb(150, 231, 231);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+
+@keyframes colors2 {
+  from {
+    color: rgb(177, 205, 181);
+  }
+  16.6% {
+    color: rgb(151, 200, 241  );
+  }
+  33.3% {
+    color: rgb(210, 145, 229);
+  }
+  50% {
+    color: rgb(202, 181, 196);
+  }
+  66.6% {
+    color: rgb(136, 204, 204);
+  }
+  83.3% {
+    color: rgb(150, 231, 231);
+  }
+  to {
+    color: rgb(160, 151, 151);
+  }
+}
 
 #circle {
 	width: 10em;
