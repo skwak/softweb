@@ -4,15 +4,19 @@
     <span class="colors"><%= input.content %></span>
   <% end %>
 
-  <% get_other_items(@selected) %>
-  <% @outsiders.each do |input| %>
-    <span class="colors2"><%= input.content %></span>
-  <% end %>
+  <div class="content">
+    <% get_other_items(@selected) %>
+    <% @outsiders.each do |input| %>
+      <span class="colors2"><%= input.content %></span>
+    <% end %>
+  </div>
 
-  <div id="circle"></div>
+  <span id="circle"></span><span id="second-circle"></span>
 
-  <%= image_tag "howcrude.gif", class: "gif" %><%= image_tag "boom.gif" %>
-
+  <div class="animated">
+    <%= image_tag "howcrude.gif", class: "gif" %><%= image_tag "boom.gif" %>
+  </div>
+  
   <h1>softweb <small>tell the softweb soft things</small></h1>
 
   <p><span class="pink">Tell me soft things.</span> <span class="blue">The soft make me ache</span>. <span class="gray">Take me away, away, and</span> <span class="purple">lay me down into softness</soab<</p>

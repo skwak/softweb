@@ -332,8 +332,19 @@ s-keyframes colors2 {
 #circle {
 	width: 10em;
 	height: 10em;
+  opacity: .4;
 	background: #e4e4e4;
 	-moz-border-radius: 5em;
 	-webkit-border-radius: 5em;
 	border-radius: 5em;
+}
+
+#second-circle {
+  width: 3em;
+  height: 3em;
+  opacity: .7;
+  background: #f4e8f4;
+  -moz-border-radius: 4em;
+  -webkit-border-radius: 4em;
+  border-radius: 4em;
 }
