@@ -80,6 +80,7 @@ p {
   -o-animation: colors 30s infinite;
   -ms-animation: colors 30s infinite;
   animation: colors 30s infinite;
+  padding-right: 1em;
 }
 
 .colors2 {
@@ -90,6 +91,7 @@ p {
   -o-animation: colors2 30s infinite;
   -ms-animation: colors2 30s infinite;
   animation: colors2 30s infinite;
+  padding-right: .3em;
 }
 
 @-webkit-keyframes colors {

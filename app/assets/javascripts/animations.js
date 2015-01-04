@@ -1,6 +1,7 @@
 $(function(){
   loop();
   secondLoop();
+  findSoft();
 });
 
 function loop() {
@@ -23,4 +24,10 @@ function secondLoop() {
   }, 7000, 'linear',  function() {
     loop();
   });
+}
+
+function findSoft() {
+  var $soft = $("span:contains('soft')")
+  $soft.css("font-style", "italic");
+  $soft.animate({height: "+=1em"});
 }
