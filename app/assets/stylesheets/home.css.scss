@@ -358,3 +358,18 @@ s-keyframes colors2 {
   -webkit-border-radius: 4em;
   border-radius: 4em;
 }
+
+#triangle {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  z-index: -2;
+	width: 0;
+	height: 0;
+  opacity: .2;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+  -moz-border-radius-lef: 6em;
+  -webkit-border-radius: 6em;
+	border-top: 100px solid #d6f5a5;
+}

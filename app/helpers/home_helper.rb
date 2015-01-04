@@ -9,7 +9,6 @@ module HomeHelper
     @inputs.each do |input|
       @outsiders<< input if !selected.include?(input)
     end
-    @outsiders
   end
 
 end
