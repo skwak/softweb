@@ -20,7 +20,7 @@ function secondLoop() {
     left: "+=2em",
     height: "+=1em",
     width: "+=5em",
-  }, 4000, 'linear',  function() {
+  }, 7000, 'linear',  function() {
     loop();
   });
 }

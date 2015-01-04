@@ -330,6 +330,10 @@ s-keyframes colors2 {
 }
 
 #circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 	width: 10em;
 	height: 10em;
   opacity: .4;
@@ -340,9 +344,13 @@ s-keyframes colors2 {
 }
 
 #second-circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
   width: 3em;
   height: 3em;
-  opacity: .7;
+  opacity: .4;
   background: #f4e8f4;
   -moz-border-radius: 4em;
   -webkit-border-radius: 4em;
