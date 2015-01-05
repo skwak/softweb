@@ -20,7 +20,12 @@ body {
   margin-left: 1em;
   background-image:  url(image_path("boom.gif"));
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 40%;
+  width: 80%;
+}
+
+.content {
+  margin-left: 3em;
 }
 
 h1 {
@@ -98,7 +103,7 @@ span {
 }
 
 #input-area {
-  width: 70%;
+  width: 100%;
   margin-left: 1em;
   padding-bottom: 3em;
   -moz-border-radius: .2em;

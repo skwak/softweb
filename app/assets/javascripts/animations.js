@@ -60,7 +60,6 @@ function moveCloud() {
 function movePinkCloud() {
   $("#pink-cloud").animate({
     left: "+=50"
-    // height: "toggle"
   }, 5000, function() {
     movePinkCloud();
   });
