@@ -1,13 +1,1 @@
-hi, this project is an exploratory art project about softness. yes, that is very
-vague.
-
-I mainly want to work on the following things:
-
-*CSS3 (I haven't been doing much work in design-type stuff the past
-couple months, so I want to go crazy and learn more CSS3 tricks)
-
-*JavaScript (I like JS even if it's "wat", so I want to explore more)
-
-*animations (because I got interested in web dev because of art projects that
-featured JS animations, so I felt like it was time to explore what got me
-interested in the first place)
+http://softsoftweb.herokuapp.com/
