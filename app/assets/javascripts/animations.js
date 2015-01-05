@@ -5,6 +5,7 @@ $(function(){
   triangleMoves();
   moveCloud();
   movePinkCloud();
+  pleasantDrift();
 });
 
 function loop() {
@@ -62,5 +63,14 @@ function movePinkCloud() {
     // height: "toggle"
   }, 5000, function() {
     movePinkCloud();
+  });
+}
+
+function pleasantDrift() {
+  $("#pleasant-shape").animate({
+    top: "+=50",
+    height: "toggle"
+  }, 10000, function() {
+    pleasantDrift();
   });
 }
