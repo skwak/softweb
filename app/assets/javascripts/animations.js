@@ -36,6 +36,8 @@ function findWords() {
   $feather.css("font-size", "2em");
   var $cotton = $("span:contains('cotton')");
   $cotton.css("border-bottom", "2px #cca1a1 dotted");
+  var $cloud = $("span:contains('cloud')");
+  $cloud.css("font-size", "3.5em");
 }
 
 function triangleMoves() {
