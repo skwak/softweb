@@ -1,7 +1,7 @@
 $(function(){
   loop();
   secondLoop();
-  findSoft();
+  findWords();
   triangleMoves();
   moveCloud();
   movePinkCloud();
@@ -28,10 +28,14 @@ function secondLoop() {
   });
 }
 
-function findSoft() {
-  var $soft = $("span:contains('soft')")
+function findWords() {
+  var $soft = $("span:contains('soft')");
   $soft.css("font-style", "italic");
   $soft.animate({height: "+=1em"});
+  var $feather = $("span:contains('feather')");
+  $feather.css("font-size", "2em");
+  var $cotton = $("span:contains('cotton')");
+  $cotton.css("border-bottom", "2px #cca1a1 dotted");
 }
 
 function triangleMoves() {

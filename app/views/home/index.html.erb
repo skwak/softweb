@@ -22,15 +22,16 @@
   </div>
 
 
-  <h1>softweb <small>tell the softweb soft things</small></h1>
+  <div id="input-area">
+    <h1>softweb <small>tell the softweb soft things</small></h1>
 
-  <p><span class="pink">Tell me soft things.</span> <span class="blue">The soft make me ache</span>. <span class="gray">Take me away, away, and</span> <span class="purple">lay me down into softness</soab<</p>
+    <p><span class="pink">Tell me soft things.</span> <span class="blue">The soft make me ache</span>. <span class="gray">Take me away, away, and</span> <span class="purple">lay me down into softness.</span></p>
 
-  <!-- <p><span class="pink">softhint: Words like "soft" are triggers for me</span></p> -->
+      <!-- <p><span class="pink">softhint: Words like "soft" are triggers for me</span></p> -->
 
-  <%= form_for(@input, html: { class: "soft-form" }) do |f| %>
-    <%= f.text_area :content %><br>
-    <%= f.submit "send me your softness" %>
-  <% end %>
-
+    <%= form_for(@input, html: { class: "soft-form" }) do |f| %>
+      <%= f.text_area :content, placeholder: "write words that trigger your softness" %><br>
+      <%= f.submit "send me your softness", class: "button" %>
+    <% end %>
+  </div>
 </div>
