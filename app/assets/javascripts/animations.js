@@ -3,6 +3,8 @@ $(function(){
   secondLoop();
   findSoft();
   triangleMoves();
+  moveCloud();
+  movePinkCloud();
 });
 
 function loop() {
@@ -37,5 +39,22 @@ function triangleMoves() {
     width: "+=2em",
   }, 5000, "linear", function() {
       triangleMoves();
+  });
+}
+
+function moveCloud() {
+  $("#cloud").animate({
+    left: "+=50"
+  }, 7000, function() {
+      moveCloud();
+    });
+}
+
+function movePinkCloud() {
+  $("#pink-cloud").animate({
+    left: "+=50"
+    // height: "toggle"
+  }, 5000, function() {
+    movePinkCloud();
   });
 }

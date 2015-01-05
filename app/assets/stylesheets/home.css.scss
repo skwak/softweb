@@ -114,6 +114,7 @@ p {
     color: rgb(160, 151, 151);
   }
 }
+
 @-moz-keyframes colors {
   from {
     color: rgb(160, 151, 151);
@@ -391,7 +392,37 @@ s-keyframes colors2 {
 #cloud:after {
   width: 5em;
   height: 7.5em;
+  -moz-border-radius: 5em;
+  -webkit-border-radius: 5em;
   border-radius: 5em;
   top: -2em;
+  left: +3em;
+}
+
+#pink-cloud {
+  height: 7em;
+  width: 14em;
+  background: #ead2ee;
+  -moz-border-radius: 5em;
+  -webkit-border-radius: 5em;
+  border-radius: 5em;
+  position: relative;
+  opacity: .4;
+  margin-left: 20%;
+}
+
+#pink-cloud:after, #pink-cloud:before {
+  content: '';
+  position: absolute;
+  background: #ead2ee;
+}
+
+#pink-cloud:after {
+  width: 8em;
+  height: 6em;
+  border-radius: 4.5em;
+  -moz-border-radius: 4.5em;
+  -webkit-border-radius: 4.5em;
+  top: -3em;
   left: +3em;
 }
