@@ -1,10 +1,9 @@
 <div id="container">
-
-  <% every_other_item(@inputs).each do |input| %>
-    <span class="colors"><%= input.content %></span>
-  <% end %>
-
   <div class="content">
+    <% every_other_item(@inputs).each do |input| %>
+      <span class="colors"><%= input.content %></span>
+    <% end %>
+
     <% get_other_items(@selected) %>
     <% @outsiders.each do |input| %>
       <span class="colors2"><%= input.content %></span>
@@ -12,7 +11,7 @@
   </div>
 
   <div id="pleasant-shape"></div>
-  
+
   <span id="circle"></span><span id="second-circle"></span><span id="triangle"></span>
 
   <div id="cloud"></div>
