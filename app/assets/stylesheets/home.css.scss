@@ -472,3 +472,15 @@ s-keyframes colors2 {
   top: -3em;
   left: +3em;
 }
+
+#pleasant-shape {
+  height: 10em;
+  width: 10em;
+  background: #ebff9a;
+  -moz-border-radius: 5em;
+  -webkit-border-radius: 5em;
+  border-radius: 5em;
+  position: absolute;
+  right: -1em;
+  opacity: .2;
+}
